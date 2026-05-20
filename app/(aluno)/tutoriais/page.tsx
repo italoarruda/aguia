@@ -1,0 +1,53 @@
+"use client";
+import { useState } from "react";
+import { BookOpen, Play, Search } from "lucide-react";
+import { Card } from "@/components/ui/card";
+import { mockVideos } from "@/lib/mock-data";
+
+export default function TutoriaisPage() {
+  const [search, setSearch] = useState("");
+  const videos = mockVideos.tutoriais.filter((v) =>
+    v.title.toLowerCase().includes(search.toLowerCase())
+  );
+
+  return (
+    <div className="space-y-6">
+      <div>
+        <h1 className="text-2xl font-bold text-[var(--text-1)] flex items-center gap-2">
+          <BookOpen size={22} className="text-[var(--primary)]" /> Tutoriais
+        </h1>
+        <p className="text-sm text-[var(--text-2)] mt-1">Veja os vídeos que preparamos para te orientar sobre a plataforma</p>
+      </div>
+
+      <div className="flex items-center gap-3">
+        <select className="text-sm bg-[var(--surface)] border border-[var(--border)] rounded-lg px-3 py-2 text-[var(--text-1)]">
+          <option>Todos</option>
+        </select>
+        <div className="relative flex-1 max-w-xs">
+          <Search size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-[var(--text-3)]" />
+          <input
+            className="w-full pl-8 pr-4 py-2 text-sm rounded-lg border border-[var(--border)] bg-[var(--surface)] text-[var(--text-1)] placeholder:text-[var(--text-3)]"
+            placeholder="Buscar por tutoriais"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+          />
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {videos.map((v) => (
+          <Card key={v.id} noPad className="overflow-hidden cursor-pointer hover:border-[var(--primary)] transition-colors group">
+            <div className="aspect-video bg-gradient-to-br from-[var(--surface-2)] to-[var(--sidebar-bg)] relative flex items-center justify-center">
+              <div className="w-12 h-12 rounded-full bg-[var(--primary-muted)] border border-[var(--primary)]/30 flex items-center justify-center group-hover:bg-[var(--primary)] transition-colors">
+                <Play size={20} className="text-[var(--primary)] group-hover:text-[#0A1A2E] ml-0.5" />
+              </div>
+            </div>
+            <div className="p-3">
+              <p className="text-sm font-semibold text-[var(--text-1)] leading-tight">{v.title}</p>
+            </div>
+          </Card>
+        ))}
+      </div>
+    </div>
+  );
+}
