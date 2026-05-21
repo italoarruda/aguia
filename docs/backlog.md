@@ -1,4 +1,4 @@
-# Backlog do Produto — Guruja
+# Backlog do Produto — Aguia
 
 ## Épico 1 — Autenticação e Onboarding
 
@@ -112,13 +112,13 @@
 
 ---
 
-## Épico 10 — Conteúdo (Coordenadas, Tutoriais, Guruja+)
+## Épico 10 — Conteúdo (Coordenadas, Tutoriais, Aguia+)
 
 | ID | História | Perfil | Pontos | Prioridade |
 |----|----------|--------|--------|------------|
 | CONT-01 | Como aluno, quero assistir vídeos de estratégia do meu concurso (Coordenadas) | Aluno | 5 | Alta |
 | CONT-02 | Como aluno, quero assistir tutoriais de uso da plataforma | Aluno | 3 | Alta |
-| CONT-03 | Como aluno, quero acessar conteúdo premium (Guruja+) com filtro de assistidos | Aluno | 5 | Média |
+| CONT-03 | Como aluno, quero acessar conteúdo premium (Aguia+) com filtro de assistidos | Aluno | 5 | Média |
 
 ---
 
@@ -148,7 +148,7 @@
 | ADM-05 | Como admin, quero gerenciar disciplinas (CRUD com código e área) | Admin | 5 | Média |
 | ADM-06 | Como admin, quero gerenciar planos de assinatura (CRUD com preço e fidelização) | Admin | 5 | Alta |
 | ADM-07 | Como admin, quero visualizar e gerenciar assinaturas dos alunos | Admin | 5 | Alta |
-| ADM-08 | Como admin, quero gerenciar vídeos (Coordenadas, Tutoriais, Guruja+) | Admin | 5 | Média |
+| ADM-08 | Como admin, quero gerenciar vídeos (Coordenadas, Tutoriais, Aguia+) | Admin | 5 | Média |
 | ADM-09 | Como admin, quero gerenciar plataformas externas integradas | Admin | 3 | Média |
 | ADM-10 | Como admin, quero publicar novas versões dos termos de uso | Admin | 5 | Alta |
 | ADM-11 | Como admin, quero ver relatórios de crescimento, churn e desempenho médio | Admin | 8 | Média |

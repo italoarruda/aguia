@@ -22,11 +22,11 @@ export default function DefinirContaPage() {
     <>
       <div className="space-y-8">
         <div>
-          <span className="text-3xl font-black text-[var(--primary)] tracking-tight">guruja</span>
+          <span className="text-3xl font-black text-[var(--primary)] tracking-tight">aguia</span>
         </div>
 
         <div>
-          <h1 className="text-xl font-bold text-[var(--text-1)]">Seja bem-vindo à Guruja</h1>
+          <h1 className="text-xl font-bold text-[var(--text-1)]">Seja bem-vindo à Aguia</h1>
           <p className="text-sm text-[var(--text-2)] mt-1">
             Falta pouco para acessar a plataforma. Defina seu nome de usuário e senha.
           </p>
@@ -89,7 +89,7 @@ export default function DefinirContaPage() {
           </div>
           <h2 className="text-lg font-bold text-[var(--text-1)]">Cadastro efetuado com sucesso!</h2>
           <p className="text-sm text-[var(--text-2)]">
-            Bem-vindo à Guruja! Foi enviado ao seu e-mail a confirmação de sua inscrição com seu nome de usuário.
+            Bem-vindo à Aguia! Foi enviado ao seu e-mail a confirmação de sua inscrição com seu nome de usuário.
           </p>
           <Button className="w-full" onClick={() => setSuccess(false)}>Finalizar</Button>
         </div>

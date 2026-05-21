@@ -6,11 +6,11 @@ import { Badge } from "@/components/ui/badge";
 import { mockVideos } from "@/lib/mock-data";
 import { cn } from "@/lib/utils";
 
-export default function GurujaPlusPage() {
+export default function AguiaPlusPage() {
   const [filter, setFilter] = useState<"todos" | "assistidos" | "nao">("todos");
   const [search, setSearch] = useState("");
 
-  const videos = mockVideos.gurujaPlus.filter((v) => {
+  const videos = mockVideos.aguiaPlus.filter((v) => {
     const matchSearch = v.title.toLowerCase().includes(search.toLowerCase());
     const matchFilter =
       filter === "todos" ? true : filter === "assistidos" ? v.watched : !v.watched;
@@ -21,7 +21,7 @@ export default function GurujaPlusPage() {
     <div className="space-y-6">
       <div>
         <h1 className="text-2xl font-bold text-[var(--text-1)] flex items-center gap-2">
-          <Sparkles size={22} className="text-[var(--primary)]" /> Guruja+
+          <Sparkles size={22} className="text-[var(--primary)]" /> Aguia+
         </h1>
         <p className="text-sm text-[var(--text-2)] mt-1">
           Conteúdos complementares para apoiar sua jornada de estudos, ajudando a manter foco, equilíbrio e constância ao longo da preparação.

@@ -1,4 +1,4 @@
-# Definition of Done — Guruja
+# Definition of Done — Aguia
 
 Uma história de usuário é considerada **concluída** quando todos os critérios abaixo forem atendidos.
 

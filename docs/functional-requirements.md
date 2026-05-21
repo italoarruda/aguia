@@ -1,4 +1,4 @@
-# Requisitos Funcionais — Guruja
+# Requisitos Funcionais — Aguia
 
 ## Autenticação e Controle de Acesso
 
@@ -115,7 +115,7 @@
 | RF-059 | Admin | Média | O admin deve poder criar, editar e excluir disciplinas com código e área |
 | RF-060 | Admin | Alta | O admin deve poder gerenciar planos de assinatura (preço, fidelização, desconto) |
 | RF-061 | Admin | Alta | O admin deve poder visualizar e alterar o status de assinaturas dos alunos |
-| RF-062 | Admin | Média | O admin deve poder publicar e gerenciar vídeos (Coordenadas, Tutoriais, Guruja+) |
+| RF-062 | Admin | Média | O admin deve poder publicar e gerenciar vídeos (Coordenadas, Tutoriais, Aguia+) |
 | RF-063 | Admin | Média | O admin deve poder gerenciar plataformas externas integradas |
 | RF-064 | Admin | Alta | O admin deve poder publicar novas versões dos termos de uso e arquivar as anteriores |
 | RF-065 | Admin | Média | O admin deve ter acesso a relatórios de crescimento, churn e desempenho médio |

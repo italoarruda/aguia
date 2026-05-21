@@ -9,10 +9,10 @@ import { Input } from "@/components/ui/input";
 import { Avatar } from "@/components/ui/avatar";
 
 const mockProfessors = [
-  { id: 1, name: "Prof. Pedro Henrique", email: "pedro@guruja.com.br", whatsapp: "(85) 99999-0001", instagram: "@profpedro", telegram: "@profpedro_tg", alunos: 28, concursos: ["SEFAZ-CE – TI", "SEFAZ-CE – Fiscal"], status: "ativo" },
-  { id: 2, name: "Prof. Maria Fernanda", email: "maria@guruja.com.br", whatsapp: "(85) 99999-0002", instagram: "@profmaria", telegram: "@profmaria_tg", alunos: 22, concursos: ["SEFAZ-CE – Fiscal"], status: "ativo" },
-  { id: 3, name: "Prof. João Carlos", email: "joao@guruja.com.br", whatsapp: "(85) 99999-0003", instagram: "@profjoao", telegram: "@profjoao_tg", alunos: 15, concursos: ["ISS/Porto Velho"], status: "ativo" },
-  { id: 4, name: "Prof. Carlos Eduardo", email: "carlos@guruja.com.br", whatsapp: "(85) 99999-0004", instagram: "@profcarlos", telegram: "@profcarlos_tg", alunos: 18, concursos: ["SEFAZ-CE – TI"], status: "inativo" },
+  { id: 1, name: "Prof. Pedro Henrique", email: "pedro@aguia.com.br", whatsapp: "(85) 99999-0001", instagram: "@profpedro", telegram: "@profpedro_tg", alunos: 28, concursos: ["SEFAZ-CE – TI", "SEFAZ-CE – Fiscal"], status: "ativo" },
+  { id: 2, name: "Prof. Maria Fernanda", email: "maria@aguia.com.br", whatsapp: "(85) 99999-0002", instagram: "@profmaria", telegram: "@profmaria_tg", alunos: 22, concursos: ["SEFAZ-CE – Fiscal"], status: "ativo" },
+  { id: 3, name: "Prof. João Carlos", email: "joao@aguia.com.br", whatsapp: "(85) 99999-0003", instagram: "@profjoao", telegram: "@profjoao_tg", alunos: 15, concursos: ["ISS/Porto Velho"], status: "ativo" },
+  { id: 4, name: "Prof. Carlos Eduardo", email: "carlos@aguia.com.br", whatsapp: "(85) 99999-0004", instagram: "@profcarlos", telegram: "@profcarlos_tg", alunos: 18, concursos: ["SEFAZ-CE – TI"], status: "inativo" },
 ];
 
 export default function ProfessoresPage() {
@@ -77,7 +77,7 @@ export default function ProfessoresPage() {
         <div className="space-y-4">
           <Input label="Nome completo" defaultValue={editing?.name} placeholder="Nome do professor" />
           <div className="grid grid-cols-2 gap-4">
-            <Input label="E-mail" defaultValue={editing?.email} placeholder="email@guruja.com.br" type="email" />
+            <Input label="E-mail" defaultValue={editing?.email} placeholder="email@aguia.com.br" type="email" />
             <Input label="WhatsApp" defaultValue={editing?.whatsapp} placeholder="(00) 00000-0000" />
           </div>
           <div className="grid grid-cols-2 gap-4">

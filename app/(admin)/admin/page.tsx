@@ -26,7 +26,7 @@ export default function AdminDashboardPage() {
     <div className="space-y-6">
       <div>
         <h1 className="text-2xl font-bold text-[var(--text-1)]">Painel Administrativo</h1>
-        <p className="text-sm text-[var(--text-2)] mt-1">Visão geral da plataforma Guruja</p>
+        <p className="text-sm text-[var(--text-2)] mt-1">Visão geral da plataforma Aguia</p>
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3">

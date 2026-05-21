@@ -11,7 +11,7 @@ export default function CadastroPage() {
   return (
     <div className="space-y-8">
       <div>
-        <span className="text-3xl font-black text-[var(--primary)] tracking-tight">guruja</span>
+        <span className="text-3xl font-black text-[var(--primary)] tracking-tight">aguia</span>
       </div>
 
       <div>

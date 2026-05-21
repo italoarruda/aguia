@@ -50,7 +50,7 @@ export default function ComparativoPage() {
         <h1 className="text-2xl font-bold text-[var(--text-1)] flex items-center gap-2">
           <BarChart2 size={22} className="text-[var(--primary)]" /> Comparativo
         </h1>
-        <p className="text-sm text-[var(--text-2)] mt-1">Compare seu desempenho com os alunos da Guruja</p>
+        <p className="text-sm text-[var(--text-2)] mt-1">Compare seu desempenho com os alunos da Aguia</p>
       </div>
 
       {/* Filters */}

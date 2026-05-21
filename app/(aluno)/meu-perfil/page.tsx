@@ -257,8 +257,8 @@ export default function MeuPerfilPage() {
             </div>
             <p className="mt-4 text-xs text-[var(--text-3)]">
               Precisa de ajuda com a sua assinatura? Fale com a gente:{" "}
-              <a href="mailto:suporte@guruja.com.br" className="text-[var(--primary)] hover:underline">
-                suporte@guruja.com.br
+              <a href="mailto:suporte@aguia.com.br" className="text-[var(--primary)] hover:underline">
+                suporte@aguia.com.br
               </a>
             </p>
           </Card>

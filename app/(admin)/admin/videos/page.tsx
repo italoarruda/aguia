@@ -12,8 +12,8 @@ const mockVideos = [
   { id: 2, titulo: "Como usar o Cronômetro", categoria: "Tutorial", professor: "–", concurso: "–", views: 189, duracao: "5:10", tipo: "Tutorial", status: "publicado" },
   { id: 3, titulo: "Estratégia SEFAZ-CE TI 2026", categoria: "Coordenadas", professor: "Prof. Pedro", concurso: "SEFAZ-CE – TI", views: 521, duracao: "42:15", tipo: "Coordenadas", status: "publicado" },
   { id: 4, titulo: "Análise do Edital Fiscal SEFAZ-CE", categoria: "Coordenadas", professor: "Prof. Maria", concurso: "SEFAZ-CE – Fiscal", views: 388, duracao: "38:00", tipo: "Coordenadas", status: "publicado" },
-  { id: 5, titulo: "Masterclass Contabilidade", categoria: "Guruja+", professor: "Prof. Maria", concurso: "SEFAZ-CE – Fiscal", views: 255, duracao: "1:24:00", tipo: "Guruja+", status: "publicado" },
-  { id: 6, titulo: "Aula bônus – IA nos Concursos", categoria: "Guruja+", professor: "Prof. Pedro", concurso: "–", views: 0, duracao: "55:00", tipo: "Guruja+", status: "rascunho" },
+  { id: 5, titulo: "Masterclass Contabilidade", categoria: "Aguia+", professor: "Prof. Maria", concurso: "SEFAZ-CE – Fiscal", views: 255, duracao: "1:24:00", tipo: "Aguia+", status: "publicado" },
+  { id: 6, titulo: "Aula bônus – IA nos Concursos", categoria: "Aguia+", professor: "Prof. Pedro", concurso: "–", views: 0, duracao: "55:00", tipo: "Aguia+", status: "rascunho" },
 ];
 
 export default function VideosPage() {
@@ -30,7 +30,7 @@ export default function VideosPage() {
           <h1 className="text-2xl font-bold text-[var(--text-1)] flex items-center gap-2">
             <Video size={22} className="text-[var(--primary)]" /> Vídeos
           </h1>
-          <p className="text-sm text-[var(--text-2)] mt-1">Gerencie Coordenadas, Tutoriais e Guruja+</p>
+          <p className="text-sm text-[var(--text-2)] mt-1">Gerencie Coordenadas, Tutoriais e Aguia+</p>
         </div>
         <Button onClick={() => { setEditing(null); setModalOpen(true); }}>
           <Plus size={14} /> Novo Vídeo
@@ -38,7 +38,7 @@ export default function VideosPage() {
       </div>
 
       <div className="flex gap-2">
-        {["todos","Coordenadas","Tutorial","Guruja+"].map((f) => (
+        {["todos","Coordenadas","Tutorial","Aguia+"].map((f) => (
           <button key={f} onClick={() => setFilter(f)}
             className={`px-3 py-1.5 text-xs rounded-lg border transition-colors ${
               filter === f ? "bg-[var(--primary)] text-[#0A1A2E] border-[var(--primary)]" : "border-[var(--border)] text-[var(--text-2)] hover:border-[var(--primary)]"
@@ -92,7 +92,7 @@ export default function VideosPage() {
             <div>
               <label className="text-xs font-medium text-[var(--text-2)]">Tipo</label>
               <select className="mt-1 w-full rounded-lg border border-[var(--border)] bg-[var(--surface)] px-3 py-2.5 text-sm text-[var(--text-1)]">
-                {["Tutorial","Coordenadas","Guruja+"].map((t) => (
+                {["Tutorial","Coordenadas","Aguia+"].map((t) => (
                   <option key={t} selected={editing?.tipo === t}>{t}</option>
                 ))}
               </select>

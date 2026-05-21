@@ -10,7 +10,7 @@ export const mockUser = {
   role: "aluno" as const,
   professor: {
     name: "Leonardo Passarin",
-    email: "leonardopassarin@guruja.com.br",
+    email: "leonardopassarin@aguia.com.br",
     whatsapp: "(19) 92005-2518",
     instagram: "@leonardopassarin_concursos",
     telegram: "-",
@@ -197,7 +197,7 @@ export const mockVideos = {
     { id: 7, title: "Desempenho e Comparativos", thumbnail: "comparativo" },
     { id: 8, title: "Meta e Arquivo", thumbnail: "arquivo" },
   ],
-  gurujaPlus: [
+  aguiaPlus: [
     { id: 1, title: "Efeito Dunning-Kruger", author: "Júlio Lobo", watched: true },
     { id: 2, title: "Estresse X Esforço", author: "Júlio Lobo", watched: true },
     { id: 3, title: "Neuroperformance e Nutrição", author: "Elimar Moura", watched: true },

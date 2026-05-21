@@ -425,7 +425,7 @@ export default function OnboardingPage() {
     <div className="min-h-screen bg-[var(--bg)] flex flex-col">
       <div className="max-w-5xl mx-auto w-full flex-1 px-6 py-10">
         <div className="mb-6">
-          <span className="text-2xl font-black text-[var(--primary)]">guruja</span>
+          <span className="text-2xl font-black text-[var(--primary)]">aguia</span>
         </div>
 
         <Stepper current={step} />

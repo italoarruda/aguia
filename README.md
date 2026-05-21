@@ -1,6 +1,6 @@
-# Guruja — Plataforma de Planejamento de Estudos para Concursos
+# Aguia — Plataforma de Planejamento de Estudos para Concursos
 
-**Guruja** é uma plataforma SaaS de planejamento personalizado de estudos para concursos públicos brasileiros. O aluno é guiado por um professor-tutor que monta um cronograma de metas e atividades (teoria, questões, lei seca, testes) e o acompanha via métricas detalhadas de desempenho.
+**Aguia** é uma plataforma SaaS de planejamento personalizado de estudos para concursos públicos brasileiros. O aluno é guiado por um professor-tutor que monta um cronograma de metas e atividades (teoria, questões, lei seca, testes) e o acompanha via métricas detalhadas de desempenho.
 
 ## Perfis de acesso
 
@@ -70,7 +70,7 @@ O PostgreSQL estará acessível em `localhost:5432`.
 
 ```bash
 # Aplicar o schema inicial
-psql -h localhost -U postgres -d guruja -f supabase/migrations/001_initial.sql
+psql -h localhost -U postgres -d aguia -f supabase/migrations/001_initial.sql
 ```
 
 Ou use o painel do Supabase Studio em [http://localhost:54323](http://localhost:54323).
@@ -78,7 +78,7 @@ Ou use o painel do Supabase Studio em [http://localhost:54323](http://localhost:
 ## Estrutura de pastas
 
 ```
-guruja/
+aguia/
 ├── app/
 │   ├── (auth)/                 ← login, cadastro, recuperação
 │   ├── (onboarding)/           ← wizard 9 etapas
@@ -128,7 +128,7 @@ guruja/
 
 ## Design System
 
-O Guruja utiliza CSS custom properties para suporte a temas claro/escuro.
+O Aguia utiliza CSS custom properties para suporte a temas claro/escuro.
 
 | Token | Dark | Light | Uso |
 |-------|------|-------|-----|

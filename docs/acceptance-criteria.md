@@ -1,4 +1,4 @@
-# Critérios de Aceite — Guruja
+# Critérios de Aceite — Aguia
 
 ## AUTH-01 — Login com username e senha
 

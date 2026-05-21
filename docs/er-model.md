@@ -1,4 +1,4 @@
-# Modelo ER — Guruja
+# Modelo ER — Aguia
 
 ## Diagrama Entidade-Relacionamento
 
@@ -320,7 +320,7 @@ Vídeos publicados na plataforma.
 |-------|------|-----------|
 | `id` | UUID PK | |
 | `title` | TEXT | |
-| `type` | ENUM | `coordenadas`, `tutorial`, `guruja_plus` |
+| `type` | ENUM | `coordenadas`, `tutorial`, `aguia_plus` |
 | `url` | TEXT | URL do vídeo (YouTube, etc.) |
 | `duration_seconds` | INTEGER | |
 | `professor_id` | UUID FK | Pode ser NULL para tutoriais |

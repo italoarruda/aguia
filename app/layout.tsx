@@ -3,7 +3,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/layout/theme-provider";
 
 export const metadata: Metadata = {
-  title: "Guruja – Plataforma de Estudos para Concursos",
+  title: "Aguia – Plataforma de Estudos para Concursos",
   description: "Planejamento personalizado para concursos públicos com acompanhamento de professor.",
 };
 

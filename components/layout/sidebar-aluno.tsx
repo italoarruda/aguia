@@ -17,7 +17,7 @@ const nav = [
   { href: "/jornada", label: "Jornada", icon: Map },
   { href: "/coordenadas", label: "Coordenadas", icon: Compass, badge: 4 },
   { href: "/tutoriais", label: "Tutoriais", icon: BookOpen },
-  { href: "/guruja-plus", label: "guruja+", icon: Sparkles, badge: 8 },
+  { href: "/aguia-plus", label: "aguia+", icon: Sparkles, badge: 8 },
   { href: "/favoritas", label: "Favoritas", icon: Heart },
   { href: "/meu-perfil", label: "Meu Perfil", icon: User },
 ];
@@ -41,7 +41,7 @@ export function SidebarAluno({ userName = "Italo", userAvatar }: SidebarAlunoPro
       {/* Logo */}
       <div className={cn("h-12 flex items-center px-3 border-b border-[var(--border)]", collapsed ? "justify-center" : "gap-2")}>
         {!collapsed && (
-          <span className="text-lg font-black text-[var(--primary)] tracking-tight">guruja</span>
+          <span className="text-lg font-black text-[var(--primary)] tracking-tight">aguia</span>
         )}
         {collapsed && (
           <span className="text-lg font-black text-[var(--primary)]">G</span>

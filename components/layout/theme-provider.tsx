@@ -11,7 +11,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const [theme, setTheme] = useState<Theme>("dark");
 
   useEffect(() => {
-    const saved = localStorage.getItem("guruja-theme") as Theme | null;
+    const saved = localStorage.getItem("aguia-theme") as Theme | null;
     const initial = saved || "dark";
     setTheme(initial);
     document.documentElement.classList.toggle("dark", initial === "dark");
@@ -20,7 +20,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   function toggle() {
     setTheme((prev) => {
       const next = prev === "dark" ? "light" : "dark";
-      localStorage.setItem("guruja-theme", next);
+      localStorage.setItem("aguia-theme", next);
       document.documentElement.classList.toggle("dark", next === "dark");
       return next;
     });

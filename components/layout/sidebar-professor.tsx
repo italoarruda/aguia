@@ -18,7 +18,7 @@ export function SidebarProfessor() {
   return (
     <aside className="flex flex-col w-52 shrink-0 h-full bg-[var(--sidebar-bg)] border-r border-[var(--border)]">
       <div className="h-12 flex items-center px-4 border-b border-[var(--border)]">
-        <span className="text-lg font-black text-[var(--primary)]">guruja</span>
+        <span className="text-lg font-black text-[var(--primary)]">aguia</span>
         <span className="ml-2 text-xs text-[var(--text-3)] font-medium">professor</span>
       </div>
       <nav className="flex-1 overflow-y-auto py-2">

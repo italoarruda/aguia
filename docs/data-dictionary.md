@@ -1,4 +1,4 @@
-# Dicionário de Dados — Guruja
+# Dicionário de Dados — Aguia
 
 ## Convenções
 
@@ -276,7 +276,7 @@
 |--------|------|-------------|-----------|
 | `id` | UUID | PK | |
 | `title` | TEXT | NOT NULL | |
-| `type` | TEXT | NOT NULL, CHECK IN ('coordenadas','tutorial','guruja_plus') | |
+| `type` | TEXT | NOT NULL, CHECK IN ('coordenadas','tutorial','aguia_plus') | |
 | `url` | TEXT | NOT NULL | URL do vídeo |
 | `thumbnail_url` | TEXT | | |
 | `duration_seconds` | INTEGER | CHECK > 0 | |

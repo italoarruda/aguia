@@ -1,4 +1,4 @@
-# Requisitos Não Funcionais — Guruja
+# Requisitos Não Funcionais — Aguia
 
 ## Performance
 
